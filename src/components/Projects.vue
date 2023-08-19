@@ -38,7 +38,7 @@ let a = "/src/assets/img/imageuploader.png"
         <carousel class="m-4"  :items-to-show="1">
             <slide v-for="(item,key) in projectJSON" :key="key" >
                 <a  :href="item.url"   target="_blank" class="group relative w-[40vw]">
-                    <img class="w-full object-cover" :src="'/src/assets/img/'+item.img" />
+                    <img class="w-full object-cover" :src="`/assets/${item.img}`" alt="" />
                         
                     <div
                         class="absolute  top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-light-gray-2 dark:bg-dark-gray-2 hover:bg-opacity-80 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
