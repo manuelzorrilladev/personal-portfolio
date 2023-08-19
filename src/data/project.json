@@ -1,0 +1,66 @@
+{
+    "project-1":{     
+        "name":"webmaker",
+        "img":"webmaker.png",
+        "url":"https://github.com/manuelzorrilladev/webmaker",
+        "description":{
+            "en":"College Intership Work",
+            "es":"Trabajo de pasantias universitarias"
+        }
+    },    
+    "project-2":{     
+        "name":"weatherium",
+        "img":"weatherium.png",
+        "url":"https://github.com/manuelzorrilladev/weatherium",
+        "description":{
+            "en":"Realtime weather app",
+            "es":"Aplicación meteorologica en tiempo real"
+        }
+    },    
+    "project-3":{     
+        "name":"notesApp",
+        "img":"notes.png",
+        "url":"https://github.com/manuelzorrilladev/notesApp",
+        "description":{
+            "en":"ToDo/notes app",
+            "es":"Aplicacion de recordatorios y notas"
+        }
+    },    
+    "project-4":{     
+        "name":"hornosblog",
+        "img":"template.png",
+        "url":"https://github.com/manuelzorrilladev/hornosblog",
+        "description":{
+            "en":"Personal blog project",
+            "es":"Proyecto personal de un blog"
+        }
+    },    
+    "project-5":{     
+        "name":"QuizApp",
+        "img":"template.png",
+        "url":"https://github.com/manuelzorrilladev/QuizApp",
+        "description":{
+            "en":"The name is self explanatory",
+            "es":"El nombre es bastante auto explicativo"
+        }
+    },    
+    "project-6":{     
+        "name":"image-uploader",
+        "img":"imageuploader.png",
+        "url":"https://github.com/manuelzorrilladev/image-uploader",
+        "description":{
+            "en":"Again, the title explain it",
+            "es":"De nuevo, el titulo lo explica"
+        }
+    },    
+    "project-7":{     
+        "name":"societ4print",
+        "img":"societ.png",
+        "url":"https://github.com/manuelzorrilladev/societ4print",
+        "description":{
+            "en":"College degree work",
+            "es":"Trabajo especial de grado"
+        }
+    }
+    
+}

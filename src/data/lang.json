@@ -1,0 +1,86 @@
+{
+    "english":{
+        "header":{
+            "title-1":"Hello👋",
+            "title-2":"I'm Manuel Zorrilla",
+            "title-3":"Front-End Developer",
+            "title-4":"I.T. Tecnical Engineer",
+            "button":"¿Want to know about me?"
+        },
+        "about":{
+            "title":"A little bit about me👩‍💻",
+            "p":"I'm Manuel Zorrilla, a Venezuelan web developer. I currently live in Caracas and I'm looking for new experiences in software development. I am a computer technical engineer, graduated from the University Institute of Technology and Administration (IUTA for its acronym). I am looking for a job, in which I can face new challenges that allow me to grow both personally and professionally.",
+            "study":"Studies🎓",
+            "title-2":"University Institute of Technology and Administration (IUTA) ",
+            "p-2":"🔹 I.T. Tecnical Engineer"
+        },
+        "knowledge":{
+            "title-1":"Areas of knowledge🎓",
+            "title-2":"Programing Skills💻",
+            "title-3":"Software Skills✒️"
+        },
+        "projects":{
+            "title-1":"¿Want to see some projects📚?",
+            "heading":"You can find my work on my Github",
+            "heading-2":"Featured Projects",
+            "button":"See More"
+            
+        },
+        "contact":{
+          "title-1":"Contact Me💬",
+          "heading": "I leave you some methods to get in touch with me",
+          "title-2":"Link to my socials",
+          "email":"Send Email" 
+        },
+        "footer":{
+            "item-1":"About",
+            "item-2":"Knowledge",
+            "item-3":"Projects",
+            "item-4":"Contact",
+            "item-5":"© 2023 Developed by Manuel Zorrilla. All Rights Reserved."
+        }
+    },
+    "spanish":{
+        "header":{
+            "title-1":"Hola👋",
+            "title-2":"Soy Manuel Zorrilla",
+            "title-3":"Desarrollador Front-End",
+            "title-4":"T.S.U. En Informatica",
+            "button":"¿Quieres saber sobre mí?"
+        },
+        "about":{
+            "title":"Un poco sobre mi👩‍💻",
+            "p":"Soy Manuel Zorrilla, desarrollador web venezolano. Actualmente vivo en Caracas y ando en busqueda de nuevas experiencias en el desarrollo de software. Soy ingeniero tecnico informatico, graduado en el instituto universitario de teconologia y administracion. estoy en la busqueda de un empleo, en el cual me pueda enfrentar a nuevos retos que me permitan crecer como tanto a nivel personal como profesional",
+            "study":"Estudios🎓",
+            "title-2":"Instituto Universitario de Tecnologia y Administracion (IUTA)",
+            "p-2":"🔹 T.S.U. Informatica"
+
+        },
+        "knowledge":{
+            "title-1":"Aréas de conocimiento🎓",
+            "title-2":"Habilidades de programación💻",
+            "title-3":"Habilidades de Software✒️"
+        },
+        "projects":{
+            "title-1":"¿Quieres ver algunos proyectos?📚",
+            "heading":"Puedes encontrar mi trabajo en Github",
+            "heading-2":"Proyectos destacados",
+
+            "button":"Ver más"
+            
+        },
+        "contact":{
+            "title-1":"Contacta conmigo💬",
+            "heading": "Te dejo algunas maneras de estar en contacto conmigo",
+            "title-2":"Link a mis redes",
+            "email":"Enviar Correo" 
+          },
+          "footer":{
+            "item-1":"Acerca",
+            "item-2":"Conocimiento",
+            "item-3":"Proyectos",
+            "item-4":"Contacto",
+            "item-5":"© 2023 Desarrollado por Manuel Zorrilla. Todos los derechos reservados."
+        }
+    }
+}
