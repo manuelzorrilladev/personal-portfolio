@@ -15,6 +15,8 @@ watch(width,()=>{
     screenSize.value = width.value
 })
 
+let a = "/src/assets/img/imageuploader.png"
+
 </script>
 
 <template>
@@ -29,14 +31,14 @@ watch(width,()=>{
             </a>
             
         </header>
-
+        
             
        <div class="bg-indigo-900  rounded-md   backdrop-blur-xl bg-opacity-50 dark:bg-opacity-30  m-8  p-4 border-light-text dark:border-dark-text border-4">
         <h1 class="font-main text-4xl text-center font-bold">{{ lang['heading-2']}}</h1>
         <carousel class="m-4"  :items-to-show="1">
             <slide v-for="(item,key) in projectJSON" :key="key" >
                 <a  :href="item.url"   target="_blank" class="group relative w-[40vw]">
-                    <img class="w-full object-cover" :src="'../../src/assets/img/'+item.img" />
+                    <img class="w-full object-cover" :src="'/src/assets/img/'+item.img" />
                         
                     <div
                         class="absolute  top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-light-gray-2 dark:bg-dark-gray-2 hover:bg-opacity-80 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">

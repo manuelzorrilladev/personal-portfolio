@@ -1,10 +1,11 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch,onMounted } from 'vue';
 import { usePreferredLanguages } from '@vueuse/core'
 import { useStorage } from '@vueuse/core'
 
 
-import Navbar from './components/Navbar.vue'
+import Loading from './components/Loading.vue' 
+import Navbar from './components/Navbar.vue' 
 import Header from './components/Header.vue'
 import Knowledge from './components/Knowledge.vue'
 import Wave from './components/svgComponents/Wave.vue'
@@ -15,6 +16,7 @@ import Footer from './components/Footer.vue'
 
 import langJson from './data/lang.json'
 const data = ref('')
+const loadingStatus = ref(true)
 
 
 
@@ -63,15 +65,24 @@ const changeTheme = () => {
 </script>
 
 <template>
-  <main :class="theme" class="duration-200">
-    <Navbar @toggle-language="toggleLanguage" @change-theme="changeTheme" :theme="theme" />
-    <Header :lang="data.header" />
-    <Wave />
-    <About :lang="data.about" />
-    <Knowledge :lang="data.knowledge" />
-    <Projects :language="language" :lang="data.projects" />
-    <Contact :lang="data.contact" />
-    <Footer :lang="data.footer" />
-  </main>
-</template>
+<Suspense>
+  <template #default>
+    <main  :class="theme" class="duration-200">
+     <Navbar @toggle-language="toggleLanguage" @change-theme="changeTheme" :theme="theme" />
+     <Header :lang="data.header" />
+     <Wave />
+     <About :lang="data.about" />
+     <Knowledge :lang="data.knowledge" />
+     <Projects :language="language" :lang="data.projects" />
+     <Contact :lang="data.contact" />
+     <Footer :lang="data.footer" />
+   </main>
+ </template>
+ <template #fallback>
+   <Loading  :lang="language"/>
+  </template>
+</Suspense>
 
+
+ 
+</template>

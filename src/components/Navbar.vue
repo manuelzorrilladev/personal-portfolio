@@ -42,7 +42,7 @@ const emitToggleLanguage=(l)=>{
 
 <template>
     <div id="navbar"
-        class="fixed flex items-center justify-between p-4  bg-light-background dark:bg-dark-background duration-200 w-full z-50 border-b-2">
+        class="fixed flex items-center justify-between p-4  bg-light-background dark:bg-dark-background duration-200 w-full z-40 border-b-2">
 
         <a href="#header"
             class="curosr-pointer inline-block relative text-light-text dark:text-dark-text font-main text-4xl font-bold after:content-[''] after:absolute after:w-full after:h-1 after:bottom-0 after:left-0 after:bg-light-text dark:after:bg-dark-text after:scale-x-0 after:origin-bottom-right after:duration-200 hover:after:scale-100 hover:after:origin-bottom-left">
