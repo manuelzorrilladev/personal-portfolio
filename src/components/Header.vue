@@ -4,6 +4,9 @@ import Animation from '../data/animation.json'
 import { useWindowSize } from '@vueuse/core'
 import { ref,watch } from 'vue';
 
+import Haikei from './svgComponents/Haikei.vue'
+
+
 const lang=defineProps(['lang'])
 
 const { width } = useWindowSize()
@@ -52,6 +55,9 @@ watch(width,()=>{
             </div>
         </header>
     </div>
+
+    <Haikei link="Knowledge" :color="['secondary','primary']"/>
+
 </template>
 
 <style scoped>

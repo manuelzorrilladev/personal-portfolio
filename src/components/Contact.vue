@@ -16,6 +16,10 @@ const lang=defineProps(['lang'])
                 <h2 class="text-center font-main text-4xl">{{lang.lang['title-2']}}</h2>
                 
 
+                <a class="duration-200 hover:shadow-[5px_5px_0px_0px_#121212] dark:hover:shadow-[5px_5px_0px_0px_#808080] font-main text-xl  flex w-full text-center  items-center p-4 rounded-lg bg-light-secondary dark:bg-dark-secondary" target="_blank" href="https://drive.google.com/file/d/1zghGMFlkG_BNpepMDaUOxZtShQuwHNIG/view?usp=drive_link">
+                    <font-awesome-icon class=" text-4xl px-2  " :icon="['fas', 'file-lines']" />
+                    C.V.
+                </a>
                 <a class="duration-200 hover:shadow-[5px_5px_0px_0px_#121212] dark:hover:shadow-[5px_5px_0px_0px_#808080] font-main text-xl  flex w-full text-center  items-center p-4 rounded-lg bg-light-secondary dark:bg-dark-secondary" target="_blank" href="mailto:manuelzorrilladev@gmail.com">
                     <font-awesome-icon class=" text-4xl px-2  " :icon="['fas', 'paper-plane']" />
                     {{lang.lang['email']}}

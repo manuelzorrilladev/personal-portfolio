@@ -8,7 +8,6 @@ import Loading from './components/Loading.vue'
 import Navbar from './components/Navbar.vue' 
 import Header from './components/Header.vue'
 import Knowledge from './components/Knowledge.vue'
-import Wave from './components/svgComponents/Wave.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
@@ -70,7 +69,7 @@ const changeTheme = () => {
     <main  :class="theme" class="duration-200">
      <Navbar @toggle-language="toggleLanguage" @change-theme="changeTheme" :theme="theme" />
      <Header :lang="data.header" />
-     <Wave />
+
      <About :lang="data.about" />
      <Knowledge :lang="data.knowledge" />
      <Projects :language="language" :lang="data.projects" />

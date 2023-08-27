@@ -50,7 +50,7 @@ let a = "/src/assets/img/imageuploader.png"
                 </a>
             </slide>
         
-            <template v-if="width>=768" #addons>
+            <template v-if="screenSize>=768" #addons>
                 <navigation class="w-10 h-10 absolute" />
               </template>
           </carousel>
